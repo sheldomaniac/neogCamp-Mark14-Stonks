@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock gain calculator</title>
+    <link href="./src/style.css" rel="stylesheet">
+</head>
+<header>
+    <nav>
+        <a href="#" class="cash-register">Stock gain calculator</a>
+        <a href="https://github.com/sheldomaniac/neogCamp-Mark14-Stonks" class="source-code">Source code</a>
+    </nav>
+</header>
+<body>
+    <main>
+        <h2>Calculate the gains / losses for your stock:</h2>
+        
+        <table>
+            <tr>
+                <td><label for="buy-price">Enter your buying price here: </label></td>
+                <td><input type="number" for="buy-price" id="buy-price" placeholder="Type your buying price here"></td>
+            </tr>
+        <tr>
+            <td><label for="buy-qty">Enter your buying quantity here: </label></td>
+            <td><input type="number" for="buy-qty" id="buy-qty" placeholder="Type your buy quantity here"></td>
+        </tr>
+        <tr>
+            <td><label for="sell-price">Enter your selling price here: </label></td>
+            <td><input type="number" for="sell-price" id="sell-price" placeholder="Type your selling price here"></td>
+        </tr>
+        </table>
+        <button id="check-profit">Check</button>
+        <div id="final-result"></div>
+        
+    </main>
+</body>
+<footer>
+    <nav class="footer-nav">      
+        <div class="social-media">
+            <a href="https://github.com/sheldomaniac"><img src="src/images/github.svg" alt="my github link" class="feedback-github fb-images"></a>
+            <a href="https://www.linkedin.com/in/sheldon-mendonca"><img src="src/images/linkedin.svg" alt="my linked-in link" class="feedback-linkedin fb-images"></a>
+            <a href="https://www.facebook.com/sheldon.mendonca.9/"><img src="src/images/facebook.svg" alt="my facebook link" class="feedback-fb fb-images"></a>
+            <a href="https://www.instagram.com/sheldon_mendonca/"><img src="src/images/instagram.svg" alt="my insta link" class="feedback-insta fb-images"></a>
+            <a href="https://sheldomaniac-portfolio.netlify.app/index.html"><img src="src/images/home.svg" alt="my home page" class="portfolio-page fb-images"></a>
+        </div>			
+    </nav>
+    <p class="footer-text">&#169; Copyright by Sheldon Mendonca.</p>
+</footer>
+<script src="./src/script.js"></script>
+</html>
